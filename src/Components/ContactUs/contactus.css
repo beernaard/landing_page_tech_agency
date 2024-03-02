@@ -1,0 +1,36 @@
+.contactus-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+.contactus-text h4{
+    font-size: 50px;
+}
+
+
+.contactus-text p{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(103, 103, 103);
+}
+@media only screen and (max-width: 600px) {
+    .contactus-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .contactus-text{
+        margin-bottom: 1.3rem;
+    }
+    .contactus-text h4{
+        font-size: 25px;
+    }
+    .contactus-text p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    /* Styles for tablets */
+}

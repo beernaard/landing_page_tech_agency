@@ -1,0 +1,66 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.5rem;
+}
+.navbar-container a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-logo{
+    flex: 0.6;
+}
+.navbar-links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.navbar-links a{
+    font-size: 14px;
+    font-weight: 400;
+}
+.navbar-links a:hover{
+    color:  rgb(139, 222, 128);;
+}
+.toggle-navbar{
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-links{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        top: 0;
+        right: -20rem;
+        background-color: rgb(254, 254, 254);
+        width: 40%;
+        height: 100vh;
+        padding: 1rem;
+        border-radius: 2rem 0 0 0;
+        transition: .3s;
+    }
+    .inactive{
+        right: 0;
+    }
+    .navbar-links p{
+        font-size: 16px;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+   .toggle-navbar{
+    align-self: flex-end;
+    display: block;
+    font-size: 20px;
+   }
+   .navbar-logo{
+    flex: 1;
+   }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    /* Styles for tablets */
+}

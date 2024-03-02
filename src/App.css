@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root{
+  --body-font:'Roboto', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: var(--body-font);
+  
+}
+.app-navbar{
+  height: 10vh;
+}
+.app-homepage{
+  height: 100vh;
+}
+
+.app-services{
+  margin-top: 6rem;
+  height: auto;
+}
+.app-whyus{
+  margin-top: 8rem;
+  height: auto;
+}
+.app-aboutus{
+  margin-top: 8rem;
+  height: auto;
+}
+.app-contactus{
+  margin-top: 8rem;
+  height: auto;
+}
+.app-footer{
+  margin-top: 8rem;
+  height: auto;
+}
+@media only screen and (max-width: 600px) {
+  .app-homepage{
+    height: auto;
+  }
+  .app-contactus{
+    margin-top: 5rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .app-homepage{
+    height: auto;
+  }
+}

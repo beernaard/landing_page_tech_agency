@@ -1,0 +1,146 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    color: white;
+    background-color: rgb(18, 18, 18);
+}
+.footer-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 3rem;
+    margin-top: 3rem;
+}
+.footer-leftcol{
+    align-self: center;
+}
+.footer-leftcol h4{
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+    
+}
+.footer-leftcol p {
+    font-size: 15px;
+    color: rgb(145, 145, 145);
+}
+.footer-middlecol{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex: 0.5;
+    height: 100%;
+}
+.footer-middlecol h5{
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+.footer-middlecol p{
+    font-size: 13px;
+}
+.middlecol-left,
+.middlecol-middle,
+.middlecol-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.middle-div p{
+margin-bottom: 0.5rem;
+}
+.footer-rightcol{
+    font-size: 20px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 10%;
+}
+.rightcol-socials{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.rightcol-socials div{
+    margin:10px 10px 0 10px;
+}
+.footer-line{
+    border-bottom: 1px solid white;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+.footer-end h3{
+    font-size: 13px;
+    font-weight: 300;
+}
+.footer-end-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+@media only screen and (max-width: 576px) {
+    .footer-container{
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .footer-header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 1rem;
+        margin-top: 0;
+    }
+    .footer-middlecol{
+        justify-content: space-evenly;
+    }
+    .middlecol-left,
+    .middlecol-middle,
+    .middlecol-right{
+        margin: 0 5px 0 5px;
+    }
+    .middlecol-left h5,
+    .middlecol-middle h5,
+    .middlecol-right h5{
+        margin-top: 1rem;
+        font-size: 12px;
+    }
+    .footer-rightcol{
+        font-size: 17px;
+        align-self: center;
+    }
+    .footer-leftcol h4{
+        text-align: center;
+        font-size: 16px;
+    }
+    .footer-leftcol p {
+        font-size: 12px;
+    }
+    .footer-end{
+        flex-direction: column;
+    }
+    .footer-end-links{
+        margin-top: 1rem;
+        font-size: 12px;
+    }
+    .footer-end-links h3,
+    .footer-end-links a{
+        margin: 2px 0 2px 0;
+    }
+    .middle-div p{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    /* Styles for tablets */
+}
+
